@@ -1,6 +1,7 @@
 {
-  "name": "node-event-markers",
+  "name": "@neurodevs/node-event-markers",
   "version": "0.0.1",
+  "main": "build/index.js",
   "repository": "https://github.com/neurodevs/node-event-markers.git",
   "scripts": {
     "build.ci": "yarn run build.tsc && yarn run build.resolve-paths && yarn run lint",
@@ -61,5 +62,8 @@
     "moduleNameMapper": {
       "^#spruce/(.*)$": "<rootDir>/build/.spruce/$1"
     }
+  },
+  "dependencies": {
+    "@neurodevs/node-lsl": "^8.0.9"
   }
 }
