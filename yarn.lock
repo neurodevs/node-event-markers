@@ -319,6 +319,11 @@
     debug "^4.3.1"
     minimatch "^3.1.2"
 
+"@eslint/core@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@eslint/core/-/core-0.6.0.tgz#9930b5ba24c406d67a1760e94cdbac616a6eb674"
+  integrity sha512-8I2Q8ykA4J0x0o7cg67FPVnehcqWTBehu/lmY+bolPFHGjh49YzGBMXTvpqVgEbBdvNCSxj6iFgiIyHzf03lzg==
+
 "@eslint/eslintrc@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-3.1.0.tgz#dbd3482bfd91efa663cbe7aa1f506839868207b6"
@@ -334,10 +339,10 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@eslint/js@9.11.0", "@eslint/js@^9.5.0":
-  version "9.11.0"
-  resolved "https://registry.yarnpkg.com/@eslint/js/-/js-9.11.0.tgz#fca7533ef33aa608770734786e02f1041847f9bb"
-  integrity sha512-LPkkenkDqyzTFauZLLAPhIb48fj6drrfMvRGSL9tS3AcZBSVTllemLSNyCvHNNL2t797S/6DJNSIwRwXgMO/eQ==
+"@eslint/js@9.11.1", "@eslint/js@^9.5.0":
+  version "9.11.1"
+  resolved "https://registry.yarnpkg.com/@eslint/js/-/js-9.11.1.tgz#8bcb37436f9854b3d9a561440daf916acd940986"
+  integrity sha512-/qu+TWz8WwPWc7/HcIJKi+c+MOm46GdVaSlTTQcaqaL53+GsoA6MxWp5PtTx48qbSP7ylM1Kn7nhvkugfJvRSA==
 
 "@eslint/object-schema@^2.1.4":
   version "2.1.4"
@@ -708,58 +713,58 @@
   dependencies:
     "@sinonjs/commons" "^3.0.0"
 
-"@sprucelabs/error@^6.0.345", "@sprucelabs/error@^6.0.364":
-  version "6.0.364"
-  resolved "https://registry.yarnpkg.com/@sprucelabs/error/-/error-6.0.364.tgz#502c7def3c68821403081797cac887c21274d290"
-  integrity sha512-cThchHCquaS34a6wGPq/wW3e5ialfWoRRyCnTQHXt+OAR7FRcFNNK3EblDJYi8s9vH8ZLh19x4Mifo3A8nhALg==
+"@sprucelabs/error@^6.0.345", "@sprucelabs/error@^6.0.384", "@sprucelabs/error@^6.0.385":
+  version "6.0.385"
+  resolved "https://registry.yarnpkg.com/@sprucelabs/error/-/error-6.0.385.tgz#0e3292742496a3afd894f9e7effd8a2a13c4068b"
+  integrity sha512-p7MaRLS41dskhdBAXfYGk9f1NIsSId/6i3AmduUZxvqubwFALCVWm1Ad/rL27RMYl9e2IfJK14iSSTG00tUQHw==
 
-"@sprucelabs/globby@^2.0.325":
-  version "2.0.325"
-  resolved "https://registry.yarnpkg.com/@sprucelabs/globby/-/globby-2.0.325.tgz#be22d0db21568bacea57b71cf1d18061b1ee4a9e"
-  integrity sha512-WRZlUeO01HufPueH8iZp33sCfYYqmnzdQvqLV9KkBKc9K2sKqwzTXsNOdl2ohk8VkOthWmzeS5RwzLBYhtGAkQ==
+"@sprucelabs/globby@^2.0.346":
+  version "2.0.346"
+  resolved "https://registry.yarnpkg.com/@sprucelabs/globby/-/globby-2.0.346.tgz#934d58a553602adf939f171d307e42fd90a6ddee"
+  integrity sha512-xFYt1p87Cky58ArRpxKOCvBF0JHBZYJfP6zL1r/somNoZCC/RqJhrDwleEzSecomCmOxTgvJZF82bekNkGPDDw==
   dependencies:
     globby "^11.0.4"
 
 "@sprucelabs/jest-json-reporter@^8.0.364":
-  version "8.0.364"
-  resolved "https://registry.yarnpkg.com/@sprucelabs/jest-json-reporter/-/jest-json-reporter-8.0.364.tgz#5490214be8acf127a58077c03da0ca9cd05dd7da"
-  integrity sha512-xmVQh3lZ8G/TrtIBWvVNuQ0zpikf5YWa4UEnsSVSsputikK9pxkLcIv9cAX3+z8kD9SPpkkARS1nd3xZj46TYw==
+  version "8.0.385"
+  resolved "https://registry.yarnpkg.com/@sprucelabs/jest-json-reporter/-/jest-json-reporter-8.0.385.tgz#62c2250f42046726456d7091064550f9695fccf1"
+  integrity sha512-2PqbCAKkBWj1r/9S7pQdAW65BQfI/HZxMENTvgjYBeBBE8oRwpwESUQZJddAa2PRH5gM5mJh55s/a+gW4+zvzA==
 
 "@sprucelabs/resolve-path-aliases@^2.0.343":
-  version "2.0.343"
-  resolved "https://registry.yarnpkg.com/@sprucelabs/resolve-path-aliases/-/resolve-path-aliases-2.0.343.tgz#e5e88e8dbf118c3351b33f120be7d73af53b20ea"
-  integrity sha512-yZmuZupG7pgDXRKvJIZxdE9BrMX/kMWtCLnn9n2ppkqzlFRu5fK2EQZVn33DlXnERPn47GaRRWpQAF28oerRtg==
+  version "2.0.364"
+  resolved "https://registry.yarnpkg.com/@sprucelabs/resolve-path-aliases/-/resolve-path-aliases-2.0.364.tgz#9ff3e059498752d9e9fe47db8f0d6bd165a99961"
+  integrity sha512-dCxKYWT3oS8v4Ri4ev2zS0YoQY0HV0k0AWhsV4AzcRO94ZttKIzvrOv7WbFH934E63Fn3sc8Yk1v+o5OCh7SNQ==
   dependencies:
-    "@sprucelabs/globby" "^2.0.325"
+    "@sprucelabs/globby" "^2.0.346"
     chalk "^4.1.2"
     tsconfig-paths "^4.2.0"
     yargs "^17.7.2"
 
-"@sprucelabs/schema@^30.0.393", "@sprucelabs/schema@^30.0.412":
-  version "30.0.412"
-  resolved "https://registry.yarnpkg.com/@sprucelabs/schema/-/schema-30.0.412.tgz#6338cb77b31ec6e24a52440b3dc5a5d5d4866a2a"
-  integrity sha512-sBUq4Mq3W7g+d6Mn88h8Bzm/Btc+vjs8a0oIbZcqnYsIO7GoUGZWj6J52/I2DZmOaXFbe2FmFD4dAi/UEssv+g==
+"@sprucelabs/schema@^30.0.393", "@sprucelabs/schema@^30.0.434":
+  version "30.0.434"
+  resolved "https://registry.yarnpkg.com/@sprucelabs/schema/-/schema-30.0.434.tgz#1f53a3b9aa22ed1debc695190ad10eb64228704e"
+  integrity sha512-vAjhZ8HPQB1hzH5k+65a+ByUS/idKokdAxuQgpNddrJm6+snqdkA+DaqFlmnOdkU1W2r+gHePQqNzhF65phjPw==
   dependencies:
-    "@sprucelabs/error" "^6.0.364"
-    "@sprucelabs/test-utils" "^5.1.309"
+    "@sprucelabs/error" "^6.0.385"
+    "@sprucelabs/test-utils" "^5.1.332"
     email-validator "^2.0.4"
     just-safe-get "^4.2.0"
     just-safe-set "^4.2.1"
 
 "@sprucelabs/spruce-core-schemas@^40.1.338":
-  version "40.1.357"
-  resolved "https://registry.yarnpkg.com/@sprucelabs/spruce-core-schemas/-/spruce-core-schemas-40.1.357.tgz#83e017c57e7e6cfdb7ec23a1b91ccad34ea17bbc"
-  integrity sha512-QcXVLgRZocJStb28Qt2SXMFKYsfdUTwcZ1hmyj5Rge7GdN7riyEcRRAZtTm2/8bLDJP8dsHHP7In5HLfIM2X4w==
+  version "40.1.378"
+  resolved "https://registry.yarnpkg.com/@sprucelabs/spruce-core-schemas/-/spruce-core-schemas-40.1.378.tgz#47a3c15f05942a57a49c4bf70ba8af8db12190ba"
+  integrity sha512-XxUrqGPmGx3sdC284Nqf7LhB+JapfRTy8hsYEV0gvhb3Xlj7/C5i1Z76ks8Z+KAYktUbQJE36l3NFex5NRiJRw==
   dependencies:
-    "@sprucelabs/schema" "^30.0.412"
+    "@sprucelabs/schema" "^30.0.434"
 
 "@sprucelabs/spruce-skill-utils@^31.0.412":
-  version "31.0.431"
-  resolved "https://registry.yarnpkg.com/@sprucelabs/spruce-skill-utils/-/spruce-skill-utils-31.0.431.tgz#c2093802105e094c814c6bfdfaaf78c1358cb0ac"
-  integrity sha512-eo3UzCKZP0DYAL8F88CiylCzD0DwLMA9ouna9OQ6JKEkUiG62FzGh7gkKJcJYM/bpVGpHTGQL+OyYmaJEWO02A==
+  version "31.0.453"
+  resolved "https://registry.yarnpkg.com/@sprucelabs/spruce-skill-utils/-/spruce-skill-utils-31.0.453.tgz#86fe45a776ede23c03553152dfb55fe4270f95f6"
+  integrity sha512-ZCzV3Zs8gwEYp4pQLMnXoCTCWNxxCbbG1qrdnOG32HEE+UiRvG4Ls9ApSdyzvGtKiPuR+encHiqZKKQa+oJ7GQ==
   dependencies:
-    "@sprucelabs/globby" "^2.0.325"
-    "@sprucelabs/schema" "^30.0.412"
+    "@sprucelabs/globby" "^2.0.346"
+    "@sprucelabs/schema" "^30.0.434"
     chalk "^4.1.2"
     dotenv "^16.4.5"
     fs-extra "^11.2.0"
@@ -767,12 +772,12 @@
     lodash "^4.17.21"
     uuid "^10.0.0"
 
-"@sprucelabs/test-utils@^5.1.309", "@sprucelabs/test-utils@^5.1.310":
-  version "5.1.310"
-  resolved "https://registry.yarnpkg.com/@sprucelabs/test-utils/-/test-utils-5.1.310.tgz#68236e8254c105185f1c5a622732f4743da95657"
-  integrity sha512-JSuDGSInqItU3uGOINUJASdUADfrVgkL9HXTFVKj7CZ2p5/aVb6EbApSldyGuR1VtCgUTC2orDjHLKBcRfBmxg==
+"@sprucelabs/test-utils@^5.1.310", "@sprucelabs/test-utils@^5.1.332":
+  version "5.1.332"
+  resolved "https://registry.yarnpkg.com/@sprucelabs/test-utils/-/test-utils-5.1.332.tgz#0c2ea750da80c0107c27343f930b16e27e3ccd34"
+  integrity sha512-ZMMdLOPYq5qiP6G9XR/d49vrYJlGF5EmMm2pD730JiEeKw/1rmg9+OBNwGuI49QE3oH0dAwGqJX8g1NbNSaPuQ==
   dependencies:
-    "@sprucelabs/error" "^6.0.364"
+    "@sprucelabs/error" "^6.0.384"
     deep-equal "^2.2.3"
     just-clone "^6.2.0"
     lodash "^4.17.21"
@@ -780,9 +785,9 @@
     variable-diff "^2.0.2"
 
 "@sprucelabs/test@^9.0.46":
-  version "9.0.46"
-  resolved "https://registry.yarnpkg.com/@sprucelabs/test/-/test-9.0.46.tgz#54e2a16a45f98a12152a67cc5ba1fba78474b708"
-  integrity sha512-7IthtsPDTrUC0yvJG9VOcOxor8zdM4qdLiqzSSnK65Cx9eXY3EGSaykDadyuvvZK7bIVtANdnrmnnH5+zLj4qg==
+  version "9.0.47"
+  resolved "https://registry.yarnpkg.com/@sprucelabs/test/-/test-9.0.47.tgz#21ade9f06ec7bd0c93211ff1ad6a4fa235ce88d3"
+  integrity sha512-883aK2Q91dmi8TflnR8HcWZX599M56gXtGkIrqsc9aQtJDJT+H9hGPwzxl/B2ImTXoByb2QIk1ltrUE1/vZ4KA==
   dependencies:
     chalk "^4.1.2"
     deep-equal "^2.2.3"
@@ -846,6 +851,11 @@
   dependencies:
     "@babel/types" "^7.20.7"
 
+"@types/estree@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@types/estree/-/estree-1.0.6.tgz#628effeeae2064a1b4e79f78e81d87b7e5fc7b50"
+  integrity sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==
+
 "@types/graceful-fs@^4.1.3":
   version "4.1.9"
   resolved "https://registry.yarnpkg.com/@types/graceful-fs/-/graceful-fs-4.1.9.tgz#2a06bc0f68a20ab37b3e36aa238be6abdf49e8b4"
@@ -872,15 +882,20 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
+"@types/json-schema@^7.0.15":
+  version "7.0.15"
+  resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.15.tgz#596a1747233694d50f6ad8a7869fcb6f56cf5841"
+  integrity sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==
+
 "@types/json5@^0.0.29":
   version "0.0.29"
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
 
 "@types/node@*", "@types/node@^22.5.5":
-  version "22.5.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.5.5.tgz#52f939dd0f65fc552a4ad0b392f3c466cc5d7a44"
-  integrity sha512-Xjs4y5UPO/CLdzpgR6GirZJx36yScjh73+2NlLlkFRSoQN8B0DpfXPdZGnvVmLRLOsqDpOfTNv7D9trgGhmOIA==
+  version "22.7.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.7.2.tgz#80ed66c0a5025ffa037587fd69a816f29b54e4c7"
+  integrity sha512-866lXSrpGpgyHBZUa2m9YNWqHDjjM0aBTJlNtYaGEw4rqY/dcD7deRVTbBBAJelfA7oaGDbNftXF/TL/A6RgoA==
   dependencies:
     undici-types "~6.19.2"
 
@@ -982,55 +997,55 @@
     "@typescript-eslint/types" "7.18.0"
     eslint-visitor-keys "^3.4.3"
 
-"@yuuang/ffi-rs-darwin-arm64@1.0.95":
-  version "1.0.95"
-  resolved "https://registry.yarnpkg.com/@yuuang/ffi-rs-darwin-arm64/-/ffi-rs-darwin-arm64-1.0.95.tgz#4891ed409a568e62a3d821b40816dfc76e42d533"
-  integrity sha512-7hskmV5fd9HDZw8aDF5PDGA3qF7lS4NWIOMOUlWk9lXzlWtYnsg70PmISaLMpvsYqMG6jvoL6yi8ef74o0gFww==
+"@yuuang/ffi-rs-darwin-arm64@1.0.96":
+  version "1.0.96"
+  resolved "https://registry.yarnpkg.com/@yuuang/ffi-rs-darwin-arm64/-/ffi-rs-darwin-arm64-1.0.96.tgz#924674202aec53943ca7531dbed7c29331ab78bd"
+  integrity sha512-ktbHLC3Du7rQgQkQodQgKoLkaG41keIExYCKjPtZEexaP2FWTDSf5WisytDoDr7Jsa47liyVkj1W7Umdga4nAA==
 
-"@yuuang/ffi-rs-darwin-x64@1.0.95":
-  version "1.0.95"
-  resolved "https://registry.yarnpkg.com/@yuuang/ffi-rs-darwin-x64/-/ffi-rs-darwin-x64-1.0.95.tgz#c63b3deca005888440bb46348160995d72043f86"
-  integrity sha512-kjI6D1hdDlT4T54RYKfrQIzIA9y2AxDWwtn+xj++lGFb8sMtmqL3htPg6txoXUW/HXrTn2/vHsLoS7oYjJVE7g==
+"@yuuang/ffi-rs-darwin-x64@1.0.96":
+  version "1.0.96"
+  resolved "https://registry.yarnpkg.com/@yuuang/ffi-rs-darwin-x64/-/ffi-rs-darwin-x64-1.0.96.tgz#293b84ae07b89de501b464085ef994a108c6d397"
+  integrity sha512-TmFMkxhbRBvzsq6ZpnedzFqMOONxbeIR4CrElFoE/bNE+1kWnN6U9PLixso0Dd0Jo+flzNnPGMK7haDwB6CeTg==
 
-"@yuuang/ffi-rs-linux-arm-gnueabihf@1.0.95":
-  version "1.0.95"
-  resolved "https://registry.yarnpkg.com/@yuuang/ffi-rs-linux-arm-gnueabihf/-/ffi-rs-linux-arm-gnueabihf-1.0.95.tgz#7056a00bd4826be0665e0684442ade5d769e2108"
-  integrity sha512-zypO+gvW6Z+1UYXglDFuqfpjZzV0EloSkAtlbL/plwCwsqKzGM92deKrV91rlhMl4Id2l0yn0pPayuPEKw/x+w==
+"@yuuang/ffi-rs-linux-arm-gnueabihf@1.0.96":
+  version "1.0.96"
+  resolved "https://registry.yarnpkg.com/@yuuang/ffi-rs-linux-arm-gnueabihf/-/ffi-rs-linux-arm-gnueabihf-1.0.96.tgz#ffe81af42e6dca65cd8c7be700e54b0873580c56"
+  integrity sha512-kOoQS0RK2iDM+GrNf/bCR7d7U6HTZR2jThqwDk3qUToc/ww5KGhbHCTJcAljgeYZJNsf5DvlIbKP6XJjUGQ6og==
 
-"@yuuang/ffi-rs-linux-arm64-gnu@1.0.95":
-  version "1.0.95"
-  resolved "https://registry.yarnpkg.com/@yuuang/ffi-rs-linux-arm64-gnu/-/ffi-rs-linux-arm64-gnu-1.0.95.tgz#ef4b3644ee82a5d5334f33b4c38dac3b0b167ba1"
-  integrity sha512-wb0lWC5OxwuyLBtWG4im+wrE2jWhwKDdN7pNw/8SS1NdetPIgKhmVZnYaf0Uu7VLKowj3+IuPla/RE5pmWfX0Q==
+"@yuuang/ffi-rs-linux-arm64-gnu@1.0.96":
+  version "1.0.96"
+  resolved "https://registry.yarnpkg.com/@yuuang/ffi-rs-linux-arm64-gnu/-/ffi-rs-linux-arm64-gnu-1.0.96.tgz#c40102cc61ce34c51fc29d0f054291fc32c7a38f"
+  integrity sha512-gwCziva9a1ok0XD+/IANESiA7USAqU7oR/T3L/f4iX1eZI7+PodD05fn7/Ullkaj5Fr3v1Q+CMi0H308l0T5uQ==
 
-"@yuuang/ffi-rs-linux-arm64-musl@1.0.95":
-  version "1.0.95"
-  resolved "https://registry.yarnpkg.com/@yuuang/ffi-rs-linux-arm64-musl/-/ffi-rs-linux-arm64-musl-1.0.95.tgz#c8008bc0c5f304ffa7a25dadc0af3a1766af8fb2"
-  integrity sha512-lBDbZ9ejO/q3xaJ3cU4692URiSTajGUOPXiXpyoopgDDiagMJdS2GMWbvy9/qN4tpEbv22pSxPVabl7rVtJ3Jg==
+"@yuuang/ffi-rs-linux-arm64-musl@1.0.96":
+  version "1.0.96"
+  resolved "https://registry.yarnpkg.com/@yuuang/ffi-rs-linux-arm64-musl/-/ffi-rs-linux-arm64-musl-1.0.96.tgz#4790bb05e1861437de2bff59bc62fafe799e3215"
+  integrity sha512-IDNIjrmd1iRgH5sjS52TUVH/ZJzpnDgHHZ6WttOK35msyC1KXHaEvQN5P32EFdBdyKCNbOtnErBYFnEz+aapqA==
 
-"@yuuang/ffi-rs-linux-x64-gnu@1.0.95":
-  version "1.0.95"
-  resolved "https://registry.yarnpkg.com/@yuuang/ffi-rs-linux-x64-gnu/-/ffi-rs-linux-x64-gnu-1.0.95.tgz#9a5b5ea13b0ecdc3918d3a38ed28b3b3e87a198c"
-  integrity sha512-LWWpvvIBXWURpWodCPZvibIAUMr4011NCZLioi+FjWoyWzv5ee2pjBF7FI2v52GtlvzDJ4YK+2czrrRpFNBJDQ==
+"@yuuang/ffi-rs-linux-x64-gnu@1.0.96":
+  version "1.0.96"
+  resolved "https://registry.yarnpkg.com/@yuuang/ffi-rs-linux-x64-gnu/-/ffi-rs-linux-x64-gnu-1.0.96.tgz#57aa8fafb76e73971fbcc5e1bcb5a2e33987516a"
+  integrity sha512-UvTLbkokFXLt8tjlO+yZPKfys/NdNfcjT0m/YuGImF/Jp5WrqcZ27tuAf60JG1f5weRGy3V+9bFHdWYymrzz/g==
 
-"@yuuang/ffi-rs-linux-x64-musl@1.0.95":
-  version "1.0.95"
-  resolved "https://registry.yarnpkg.com/@yuuang/ffi-rs-linux-x64-musl/-/ffi-rs-linux-x64-musl-1.0.95.tgz#e8f25b6abc003bf202ca61c62c84f6ed8b587c51"
-  integrity sha512-zo23GAHfH6wP/AmMC/W8CC+D6vP9duvmR8kYglxRpQmSXJVTbLnGYrRUm4jY3m1NOV08j/RybiV/mOOkM2kxRg==
+"@yuuang/ffi-rs-linux-x64-musl@1.0.96":
+  version "1.0.96"
+  resolved "https://registry.yarnpkg.com/@yuuang/ffi-rs-linux-x64-musl/-/ffi-rs-linux-x64-musl-1.0.96.tgz#d311677c65e2150a1e7856c98616846e1de0d29b"
+  integrity sha512-9fahKTHCq6pjmJoc9P7/qfhWLD6ydP3unFt79X6AquDXel2Cobd2B5D2/DQqgdLuf8+ijHB9XGel3PVxLh2t1A==
 
-"@yuuang/ffi-rs-win32-arm64-msvc@1.0.95":
-  version "1.0.95"
-  resolved "https://registry.yarnpkg.com/@yuuang/ffi-rs-win32-arm64-msvc/-/ffi-rs-win32-arm64-msvc-1.0.95.tgz#6747e643e9634027f01eb65d97558c07d1f9322c"
-  integrity sha512-D7BOQbmLP3G5oNewToYqecCIAH8fbtL1N+J0tGisSau1LZvBXkPrUVf0qwIPU5UMN3FkqL0m5xtggQtiQiMdnw==
+"@yuuang/ffi-rs-win32-arm64-msvc@1.0.96":
+  version "1.0.96"
+  resolved "https://registry.yarnpkg.com/@yuuang/ffi-rs-win32-arm64-msvc/-/ffi-rs-win32-arm64-msvc-1.0.96.tgz#8eda9e87718a80c43c9a661b003669853bc4cae6"
+  integrity sha512-lje7z6UVMigJTpVW6kRHt+od76CEnCbFDA1tsn0Bsb+bUDKIP3/jsxoKoj0lECV1SIxn8ABKiL76AkXQXrQiDw==
 
-"@yuuang/ffi-rs-win32-ia32-msvc@1.0.95":
-  version "1.0.95"
-  resolved "https://registry.yarnpkg.com/@yuuang/ffi-rs-win32-ia32-msvc/-/ffi-rs-win32-ia32-msvc-1.0.95.tgz#e08f62352d32924e0c45b01c82f9f964028c0160"
-  integrity sha512-XowjqsYnU9R69ma4AEZzon9D+cZIGlHnavttLuQsdKDMaKdK8ZqqosLoZpmGerQw6ZBekDYqRk+k4Yg9wIAZmQ==
+"@yuuang/ffi-rs-win32-ia32-msvc@1.0.96":
+  version "1.0.96"
+  resolved "https://registry.yarnpkg.com/@yuuang/ffi-rs-win32-ia32-msvc/-/ffi-rs-win32-ia32-msvc-1.0.96.tgz#debbafcd13f56d6cda5025d3288356d2c5e2a780"
+  integrity sha512-2gvyiJ1ytlaLBucE32ozT13glx6JE0QGV39LL5UCSQcUYmRDqwgHPiGLizD4WkMmHzp4KpK5vc/r5W2RpTZgiQ==
 
-"@yuuang/ffi-rs-win32-x64-msvc@1.0.95":
-  version "1.0.95"
-  resolved "https://registry.yarnpkg.com/@yuuang/ffi-rs-win32-x64-msvc/-/ffi-rs-win32-x64-msvc-1.0.95.tgz#0f9a975fef56a94a9d1e9aa8a2002eb20fb12010"
-  integrity sha512-avwEGkXzyp+q04Xs2/F3g+2R9/fDx52DKNHFPaWzAiybzITe5xH2c+qiIe4HCmg5KAjfzZkEy1y8WlPqhtwBwA==
+"@yuuang/ffi-rs-win32-x64-msvc@1.0.96":
+  version "1.0.96"
+  resolved "https://registry.yarnpkg.com/@yuuang/ffi-rs-win32-x64-msvc/-/ffi-rs-win32-x64-msvc-1.0.96.tgz#fd23c997db6772a705640fea938fa0c1d2c152f6"
+  integrity sha512-qZnumYiQfpAnSz8KTbVs21ZkHc4R+rcG7L29KPFdUbRCvxLdaGeMa9ta8Hmgtbzs7z+N/UhGA3Ef1LIh5pSEtQ==
 
 abbrev@^2.0.0:
   version "2.0.0"
@@ -1332,12 +1347,12 @@ braces@^3.0.3, braces@~3.0.2:
     fill-range "^7.1.1"
 
 browserslist@^4.23.1:
-  version "4.23.3"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.23.3.tgz#debb029d3c93ebc97ffbc8d9cbb03403e227c800"
-  integrity sha512-btwCFJVjI4YWDNfau8RhZ+B1Q/VLoUITrm3RlP6y1tYGWIOa+InuYiRGXUBXo8nA1qKmHMyLB/iVQg5TT4eFoA==
+  version "4.24.0"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.24.0.tgz#a1325fe4bc80b64fda169629fc01b3d6cecd38d4"
+  integrity sha512-Rmb62sR1Zpjql25eSanFGEhAxcFwfA1K0GuQcLoaJBAcENegrQut3hYdhXFF1obQfiDyqIW/cLM5HSJ/9k884A==
   dependencies:
-    caniuse-lite "^1.0.30001646"
-    electron-to-chromium "^1.5.4"
+    caniuse-lite "^1.0.30001663"
+    electron-to-chromium "^1.5.28"
     node-releases "^2.0.18"
     update-browserslist-db "^1.1.0"
 
@@ -1404,10 +1419,10 @@ camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.3.0.tgz#5685b95eb209ac9c0c177467778c9c84df58ba9a"
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
-caniuse-lite@^1.0.30001646:
-  version "1.0.30001662"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001662.tgz#3574b22dfec54a3f3b6787331da1040fe8e763ec"
-  integrity sha512-sgMUVwLmGseH8ZIrm1d51UbrhqMCH3jvS7gF/M6byuHOnKyLOBL7W8yz5V02OHwgLGA36o/AFhWzzh4uc5aqTA==
+caniuse-lite@^1.0.30001663:
+  version "1.0.30001664"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001664.tgz#d588d75c9682d3301956b05a3749652a80677df4"
+  integrity sha512-AmE7k4dXiNKQipgn7a2xg558IRqPN3jMQY/rOsbxDhrd0tyChwbITBfiwtnqz8bi2M5mIWbxAYBvk7W7QBUS2g==
 
 chalk@^2.4.2:
   version "2.4.2"
@@ -1732,10 +1747,10 @@ eastasianwidth@^0.2.0:
   resolved "https://registry.yarnpkg.com/eastasianwidth/-/eastasianwidth-0.2.0.tgz#696ce2ec0aa0e6ea93a397ffcf24aa7840c827cb"
   integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
 
-electron-to-chromium@^1.5.4:
-  version "1.5.27"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.27.tgz#5203ce5d6054857d84ba84d3681cbe59132ade78"
-  integrity sha512-o37j1vZqCoEgBuWWXLHQgTN/KDKe7zwpiY5CPeq2RvUqOyJw9xnrULzZAEVQ5p4h+zjMk7hgtOoPdnLxr7m/jw==
+electron-to-chromium@^1.5.28:
+  version "1.5.29"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.29.tgz#aa592a3caa95d07cc26a66563accf99fa573a1ee"
+  integrity sha512-PF8n2AlIhCKXQ+gTpiJi0VhcHDb69kYX4MtCiivctc2QD3XuNZ/XIOlbGzt7WAjjEev0TtaH6Cu3arZExm5DOw==
 
 email-validator@^2.0.4:
   version "2.0.4"
@@ -1971,9 +1986,9 @@ eslint-import-resolver-node@^0.3.9:
     resolve "^1.22.4"
 
 eslint-module-utils@^2.9.0:
-  version "2.11.0"
-  resolved "https://registry.yarnpkg.com/eslint-module-utils/-/eslint-module-utils-2.11.0.tgz#b99b211ca4318243f09661fae088f373ad5243c4"
-  integrity sha512-gbBE5Hitek/oG6MUVj6sFuzEjA/ClzNflVrLovHi/JgLdC7fiN5gLAY1WIPW1a0V5I999MnsrvVrCOGmmVqDBQ==
+  version "2.11.1"
+  resolved "https://registry.yarnpkg.com/eslint-module-utils/-/eslint-module-utils-2.11.1.tgz#6d5a05f09af98f4d238a819ae4c23626a75fa65b"
+  integrity sha512-EwcbfLOhwVMAfatfqLecR2yv3dE5+kQ8kx+Rrt0DvDXEVwW86KQ/xbMDQhtp5l42VXukD5SOF8mQQHbaNtO0CQ==
   dependencies:
     debug "^3.2.7"
 
@@ -2035,19 +2050,22 @@ eslint-visitor-keys@^4.0.0:
   integrity sha512-OtIRv/2GyiF6o/d8K7MYKKbXrOUBIK6SfkIRM4Z0dY3w+LiQ0vy3F57m0Z71bjbyeiWFiHJ8brqnmE6H6/jEuw==
 
 eslint@^9.11.0:
-  version "9.11.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-9.11.0.tgz#f7a7bf305a4d77f23be0c1e4537b9aa1617219be"
-  integrity sha512-yVS6XODx+tMFMDFcG4+Hlh+qG7RM6cCJXtQhCKLSsr3XkLvWggHjCqjfh0XsPPnt1c56oaT6PMgW9XWQQjdHXA==
+  version "9.11.1"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-9.11.1.tgz#701e5fc528990153f9cef696d8427003b5206567"
+  integrity sha512-MobhYKIoAO1s1e4VUrgx1l1Sk2JBR/Gqjjgw8+mfgoLE2xwsHur4gdfTxyTgShrhvdVFTaJSgMiQBl1jv/AWxg==
   dependencies:
     "@eslint-community/eslint-utils" "^4.2.0"
     "@eslint-community/regexpp" "^4.11.0"
     "@eslint/config-array" "^0.18.0"
+    "@eslint/core" "^0.6.0"
     "@eslint/eslintrc" "^3.1.0"
-    "@eslint/js" "9.11.0"
+    "@eslint/js" "9.11.1"
     "@eslint/plugin-kit" "^0.2.0"
     "@humanwhocodes/module-importer" "^1.0.1"
     "@humanwhocodes/retry" "^0.3.0"
     "@nodelib/fs.walk" "^1.2.8"
+    "@types/estree" "^1.0.6"
+    "@types/json-schema" "^7.0.15"
     ajv "^6.12.4"
     chalk "^4.0.0"
     cross-spawn "^7.0.2"
@@ -2232,20 +2250,20 @@ fb-watchman@^2.0.0:
     bser "2.1.1"
 
 ffi-rs@^1.0.94:
-  version "1.0.95"
-  resolved "https://registry.yarnpkg.com/ffi-rs/-/ffi-rs-1.0.95.tgz#5e349c3d0496ef25412daf0b7fa47ba74d73e4b6"
-  integrity sha512-TzsVoeuOERx5ZOFE0KdWDbGhBG138kW34/lDdp11kUWY/wzZwvgIaSeOUfVRa6abU0Qg2bltCP80ruJI2NmL7A==
+  version "1.0.96"
+  resolved "https://registry.yarnpkg.com/ffi-rs/-/ffi-rs-1.0.96.tgz#1200f731fccc0507e5e03d0a07a9b2a472fbd2f5"
+  integrity sha512-YrmOEr4bC2rnsvid42f/qkR8NJcW9agbHgYvBsF2aB0S59OCEpdAtlS7e+P6pmiOrR4FQgo62hMv6bRyM04NlA==
   optionalDependencies:
-    "@yuuang/ffi-rs-darwin-arm64" "1.0.95"
-    "@yuuang/ffi-rs-darwin-x64" "1.0.95"
-    "@yuuang/ffi-rs-linux-arm-gnueabihf" "1.0.95"
-    "@yuuang/ffi-rs-linux-arm64-gnu" "1.0.95"
-    "@yuuang/ffi-rs-linux-arm64-musl" "1.0.95"
-    "@yuuang/ffi-rs-linux-x64-gnu" "1.0.95"
-    "@yuuang/ffi-rs-linux-x64-musl" "1.0.95"
-    "@yuuang/ffi-rs-win32-arm64-msvc" "1.0.95"
-    "@yuuang/ffi-rs-win32-ia32-msvc" "1.0.95"
-    "@yuuang/ffi-rs-win32-x64-msvc" "1.0.95"
+    "@yuuang/ffi-rs-darwin-arm64" "1.0.96"
+    "@yuuang/ffi-rs-darwin-x64" "1.0.96"
+    "@yuuang/ffi-rs-linux-arm-gnueabihf" "1.0.96"
+    "@yuuang/ffi-rs-linux-arm64-gnu" "1.0.96"
+    "@yuuang/ffi-rs-linux-arm64-musl" "1.0.96"
+    "@yuuang/ffi-rs-linux-x64-gnu" "1.0.96"
+    "@yuuang/ffi-rs-linux-x64-musl" "1.0.96"
+    "@yuuang/ffi-rs-win32-arm64-msvc" "1.0.96"
+    "@yuuang/ffi-rs-win32-ia32-msvc" "1.0.96"
+    "@yuuang/ffi-rs-win32-x64-msvc" "1.0.96"
 
 file-entry-cache@^8.0.0:
   version "8.0.0"

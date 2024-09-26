@@ -1,8 +1,8 @@
 import { assert } from '@sprucelabs/test-utils'
 import { LslSample } from '@neurodevs/node-lsl'
-import { DurationMarker, EventMarkerLslOutlet } from '../EventMarkerLslOutlet'
+import { DurationMarker, EventMarkerOutlet } from '../EventMarkerLslOutlet'
 
-export default class MockEventMarkerLslOutlet implements EventMarkerLslOutlet {
+export default class MockEventMarkerLslOutlet implements EventMarkerOutlet {
     private didPushMarkers = false
     private pushedMarkers?: DurationMarker[]
     private didPushSamples = false

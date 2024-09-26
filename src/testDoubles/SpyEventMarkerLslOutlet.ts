@@ -1,7 +1,7 @@
 import { LslOutletOptions } from '@neurodevs/node-lsl'
-import EventMarkerLslOutletImpl from '../EventMarkerLslOutlet'
+import EventMarkerLslOutlet from '../EventMarkerLslOutlet'
 
-export default class SpyEventMarkerLslOutlet extends EventMarkerLslOutletImpl {
+export default class SpyEventMarkerLslOutlet extends EventMarkerLslOutlet {
     public passedOptions: LslOutletOptions
     public totalWaitTimeMs: number
 

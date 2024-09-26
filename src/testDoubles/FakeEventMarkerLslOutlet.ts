@@ -1,6 +1,6 @@
-import { DurationMarker, EventMarkerLslOutlet } from '../EventMarkerLslOutlet'
+import { DurationMarker, EventMarkerOutlet } from '../EventMarkerLslOutlet'
 
-export default class FakeEventMarkerLslOutlet implements EventMarkerLslOutlet {
+export default class FakeEventMarkerLslOutlet implements EventMarkerOutlet {
     public pushMarkersCalls: DurationMarker[][]
     public pushSampleCalls: string[][]
     public numStopCalls: number

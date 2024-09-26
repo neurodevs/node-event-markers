@@ -10,7 +10,7 @@ import {
     LiblslImpl,
     LslOutletOptions,
 } from '@neurodevs/node-lsl'
-import EventMarkerLslOutletImpl from '../../EventMarkerLslOutlet'
+import EventMarkerLslOutlet from '../../EventMarkerLslOutlet'
 import SpyEventMarkerLslOutlet from '../../testDoubles/SpyEventMarkerLslOutlet'
 
 export default class EventMarkerLslOutletTest extends AbstractSpruceTest {
@@ -19,7 +19,7 @@ export default class EventMarkerLslOutletTest extends AbstractSpruceTest {
 
     protected static async beforeEach() {
         await super.beforeEach()
-        EventMarkerLslOutletImpl.Class = SpyEventMarkerLslOutlet
+        EventMarkerLslOutlet.Class = SpyEventMarkerLslOutlet
         this.fakeLiblsl = new FakeLiblsl()
         LiblslImpl.setInstance(this.fakeLiblsl)
         this.outlet = this.Outlet()
@@ -129,7 +129,7 @@ export default class EventMarkerLslOutletTest extends AbstractSpruceTest {
     }
 
     private static setupOutlet() {
-        EventMarkerLslOutletImpl.Class = EventMarkerLslOutletImpl as any
+        EventMarkerLslOutlet.Class = EventMarkerLslOutlet as any
         this.outlet = this.Outlet()
     }
 
@@ -151,8 +151,6 @@ export default class EventMarkerLslOutletTest extends AbstractSpruceTest {
     }
 
     private static Outlet(options?: Partial<LslOutletOptions>) {
-        return EventMarkerLslOutletImpl.Create(
-            options
-        ) as SpyEventMarkerLslOutlet
+        return EventMarkerLslOutlet.Create(options) as SpyEventMarkerLslOutlet
     }
 }

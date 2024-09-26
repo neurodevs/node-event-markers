@@ -1,8 +1,8 @@
 import { LslOutletImpl, LslOutletOptions, LslOutlet } from '@neurodevs/node-lsl'
 
-export default class EventMarkerLslOutletImpl
+export default class EventMarkerLslOutlet
     extends LslOutletImpl
-    implements EventMarkerLslOutlet
+    implements EventMarkerOutlet
 {
     public static Class?: EventMarkerLslOutletConstructor
 
@@ -27,7 +27,7 @@ export default class EventMarkerLslOutletImpl
         return new (this.Class ?? this)({
             ...defaultOptions,
             ...options,
-        }) as EventMarkerLslOutlet
+        }) as EventMarkerOutlet
     }
 
     public async pushMarkers(markers: DurationMarker[]) {
@@ -60,14 +60,14 @@ export default class EventMarkerLslOutletImpl
     }
 }
 
-export interface EventMarkerLslOutlet extends LslOutlet {
+export interface EventMarkerOutlet extends LslOutlet {
     pushMarkers(markers: DurationMarker[]): Promise<void>
     stop(): void
 }
 
 export type EventMarkerLslOutletConstructor = new (
     options: LslOutletOptions
-) => EventMarkerLslOutlet
+) => EventMarkerOutlet
 
 export interface DurationMarker {
     name: string
